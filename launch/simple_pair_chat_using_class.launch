@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="ros_start" name="sender" type="simple_publisher"/>
+	<node pkg="ros_start" name="class_listener" type="using_class_method_subscriber"/>
+</launch>

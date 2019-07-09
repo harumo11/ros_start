@@ -1,0 +1,11 @@
+<launch>
+    <!--同じプログラムを複数の名前で起動する-->
+    <node pkg="ros_start" name="sender0" type="simple_publisher"/>
+    <node pkg="ros_start" name="sender1" type="simple_publisher"/>
+    <node pkg="ros_start" name="listener0" type="simple_subscriber"/>
+    <node pkg="ros_start" name="listener1" type="simple_subscriber"/>
+
+</launch>
+
+
+

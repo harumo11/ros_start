@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+    
+    <!--パッケージの名前 CMakeLists.txtのprojectと同じものでなければならない-->
+    <name>ros_start</name>
+    <!--パッケージのバージョン-->
+    <version>0.0.1</version>
+    <!--パッケージの説明-->
+    <description>first step of ros</description>
+    <!--パッケージのライセンス-->
+    <license>BSD</license>
+    <!--パッケージのメンテナのメルアド-->
+    <maintainer email = "s_harumo@hotmail.co.jp">Anonymous</maintainer>
+
+
+    <!--ビルドシステムの依存関係，今回はcatkinを使用しているのでcatkin-->
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <!--ビルドするときの依存関係-->
+    <build_depend>roscpp</build_depend>
+    <build_depend>std_msgs</build_depend>
+
+    <!--実行時の依存関係-->
+    <run_depend>roscpp</run_depend>
+    <run_depend>std_msgs</run_depend>
+
+    <export>
+        <!--rosで規定されていないタグ名はこの中で使用する-->
+    </export>
+
+</package>

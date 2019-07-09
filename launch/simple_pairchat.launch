@@ -1,0 +1,10 @@
+<launch>
+    <!--基本のlaunchファイル．　起動したいプログラムをならべる．-->
+    <!--パッケージの名前 アダ名 プログラム名-->
+    <node pkg="ros_start" name="sender" type="simple_publisher"/>
+    <node pkg="ros_start" name="listener" type="simple_subscriber"/>
+
+</launch>
+
+
+

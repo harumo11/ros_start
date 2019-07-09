@@ -1,0 +1,16 @@
+<launch>
+    <!--同じ名前のノードを複数起動する．名前の衝突を避けるためns(namespace)を使用-->
+    <group ns="nice_team">
+        <node pkg="ros_start" name="sender" type="simple_publisher"/>
+        <node pkg="ros_start" name="listener" type="simple_subscriber"/>
+    </group>
+
+    <group ns="cool_team">
+        <node pkg="ros_start" name="sender" type="simple_publisher"/>
+        <node pkg="ros_start" name="listener" type="simple_subscriber"/>
+    </group>
+
+</launch>
+
+
+
