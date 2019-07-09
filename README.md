@@ -23,7 +23,4 @@
         3.同じプログラムを複数起動する．名前の衝突を避けるために名前空間を使用
         $ roslaunch simple_multi_groupchat.launch
 
-
-
-
-
+		4.サービスのサーバとクライアント
