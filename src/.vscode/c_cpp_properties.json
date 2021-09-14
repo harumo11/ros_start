@@ -6,13 +6,14 @@
                 "limitSymbolsToIncludedHeaders": true
             },
             "includePath": [
-                "/opt/ros/melodic/include",
+                "/opt/ros/noetic/include",
                 "/home/harumo/catkin_ws/devel/include",
                 "/usr/include"
             ],
             "name": "Linux",
             "intelliSenseMode": "gcc-x64",
-            "compilerPath": "/usr/bin/clang"
+            "compilerPath": "/usr/bin/clang-12",
+            "cppStandard": "c++20"
         }
     ],
     "version": 4
